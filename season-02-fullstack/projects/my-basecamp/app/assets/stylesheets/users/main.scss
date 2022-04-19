@@ -1,3 +1,8 @@
 /* CSS for routes handled by the 'users' controller */
 @import "_sign_in";
 @import "_sign_up";
+
+/* Modification of styles that are from the Bootstrap library */
+.alert {
+  margin-bottom: 0rem !important;
+}
