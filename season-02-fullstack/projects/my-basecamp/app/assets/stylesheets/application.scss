@@ -21,11 +21,11 @@
  * For more info > https://github.com/rails/sass-rails
 */
 
+// CSS libraries
+@import "bootstrap";
+@import "basecamp";
+@import "redm-1.0.0";
+
 // CSS related to the specific controllers
 @import "home_pages/main";
 @import "users/main";
-
-// CSS libraries
-@import "redm-1.0.0";
-@import "bootstrap";
-@import "basecamp";
