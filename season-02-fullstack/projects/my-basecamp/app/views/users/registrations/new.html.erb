@@ -1,8 +1,10 @@
 <main class="sign-up">
   <div grid_col="1/8" class="sign-up__crazy-creator-girl-box">
-    <%= image_tag "general/animations/crazy-creator-girl.svg", alt: "crazy creator girl" %>
+    <div class="sign-up__crazy-creator-girl">
+      <%= image_tag "general/animations/crazy-creator-girl.svg", alt: "crazy creator girl" %>
+    </div>
   </div>
-  <div grid_col="8/13" class="sign-up__form-box">
+  <div grid_col="8/12" class="sign-up__form-box">
     <section class="sign-up__logo-box">
       <%= link_to root_path, class: "sign-up_logo", aria: { label: "My Basecamp" } do %>
         <svg viewBox="0 0 149.8 41.4" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="my-basecamp-logo-title">
