@@ -1,0 +1,2 @@
+module Users::SetupsHelper
+end
